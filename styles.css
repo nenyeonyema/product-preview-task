@@ -9,11 +9,12 @@ body {
 .container {
     border: 1px groove hsl(30, 38%, 92%);
     display: flex;
+    overflow: hidden;
     width: 600px;
     min-height: 500px;
     margin: auto;
     margin-top: 75px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 div.container img.pics {
